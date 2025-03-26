@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Novo -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1><a href="index.html">BookVerse</a></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="paginas/obras/obras.html">Biblioteca</a></li>
+                    <li><a href="#favoritos">Favoritos</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="user-btn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carrossel Principal -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="https://placeholder.com/800x400" alt="Livro 1">
+                <div class="carousel-content">
+                    <h2>O Senhor dos Anéis</h2>
+                    <p>Uma jornada épica através da Terra-média</p>
+                    <button class="btn-primary">Ler Agora</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://placeholder.com/800x400" alt="Livro 2">
+                <div class="carousel-content">
+                    <h2>Harry Potter</h2>
+                    <p>O mundo mágico de Hogwarts</p>
+                    <button class="btn-primary">Ler Agora</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://placeholder.com/800x400" alt="Livro 3">
+                <div class="carousel-content">
+                    <h2>O Hobbit</h2>
+                    <p>Uma aventura inesperada</p>
+                    <button class="btn-primary">Ler Agora</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+    </div>
+
+    <!-- Últimas Obras -->
+    <section class="recent-books">
+        <h2>Últimas Obras Adicionadas</h2>
+        <div class="book-cards">
+            <a href="paginas/capitulo/capitulo.html" class="book-card">
+                <img src="https://placeholder.com/200x300" alt="A Corte de Espinhos e Rosas">
+                <h3>A Corte de Espinhos e Rosas</h3>
+                <p class="author">Sarah J. Maas</p>
+                <div class="book-info">
+                    <span class="genre">Fantasia</span>
+                    <span class="rating">4.8 ★</span>
+                </div>
+            </a>
+            <a href="paginas/capitulo/capitulo.html" class="book-card">
+                <img src="https://placeholder.com/200x300" alt="O Príncipe Cruel">
+                <h3>O Príncipe Cruel</h3>
+                <p class="author">Holly Black</p>
+                <div class="book-info">
+                    <span class="genre">Fantasia</span>
+                    <span class="rating">4.6 ★</span>
+                </div>
+            </a>
+            <a href="paginas/capitulo/capitulo.html" class="book-card">
+                <img src="https://placeholder.com/200x300" alt="Verity">
+                <h3>Verity</h3>
+                <p class="author">Colleen Hoover</p>
+                <div class="book-info">
+                    <span class="genre">Suspense</span>
+                    <span class="rating">4.7 ★</span>
+                </div>
+            </a>
+            <a href="paginas/capitulo/capitulo.html" class="book-card">
+                <img src="https://placeholder.com/200x300" alt="Duna">
+                <h3>Duna</h3>
+                <p class="author">Frank Herbert</p>
+                <div class="book-info">
+                    <span class="genre">Sci-Fi</span>
+                    <span class="rating">4.9 ★</span>
+                </div>
+            </a>
+            <a href="paginas/capitulo/capitulo.html" class="book-card">
+                <img src="https://placeholder.com/200x300" alt="It: A Coisa">
+                <h3>It: A Coisa</h3>
+                <p class="author">Stephen King</p>
+                <div class="book-info">
+                    <span class="genre">Terror</span>
+                    <span class="rating">4.7 ★</span>
+                </div>
+            </a>
+        </div>
+        <a href="paginas/obras/obras.html" class="btn-secondary">Ver Todas as Obras</a>
+    </section>
+
+    <!-- Ranking -->
+    <section class="ranking">
+        <h2>Top Leituras</h2>
+        <div class="ranking-list">
+            <a href="paginas/lista/lista.html" class="ranking-item">
+                <span class="rank">1</span>
+                <img src="https://placeholder.com/50x75" alt="O Nome do Vento">
+                <div class="rank-info">
+                    <h3>O Nome do Vento</h3>
+                    <p class="author">Patrick Rothfuss</p>
+                    <p class="stats">Leituras: 50.2k • Favoritos: 25.3k</p>
+                </div>
+                <span class="rank-score">4.9 ★</span>
+            </a>
+            <a href="paginas/lista/lista.html" class="ranking-item">
+                <span class="rank">2</span>
+                <img src="https://placeholder.com/50x75" alt="Os Sete Maridos de Evelyn Hugo">
+                <div class="rank-info">
+                    <h3>Os Sete Maridos de Evelyn Hugo</h3>
+                    <p class="author">Taylor Jenkins Reid</p>
+                    <p class="stats">Leituras: 45.8k • Favoritos: 22.1k</p>
+                </div>
+                <span class="rank-score">4.8 ★</span>
+            </a>
+            <a href="paginas/lista/lista.html" class="ranking-item">
+                <span class="rank">3</span>
+                <img src="https://placeholder.com/50x75" alt="Trono de Vidro">
+                <div class="rank-info">
+                    <h3>Trono de Vidro</h3>
+                    <p class="author">Sarah J. Maas</p>
+                    <p class="stats">Leituras: 42.3k • Favoritos: 20.5k</p>
+                </div>
+                <span class="rank-score">4.7 ★</span>
+            </a>
+            <a href="paginas/lista/lista.html" class="ranking-item">
+                <span class="rank">4</span>
+                <img src="https://placeholder.com/50x75" alt="A Rainha Vermelha">
+                <div class="rank-info">
+                    <h3>A Rainha Vermelha</h3>
+                    <p class="author">Victoria Aveyard</p>
+                    <p class="stats">Leituras: 38.9k • Favoritos: 18.7k</p>
+                </div>
+                <span class="rank-score">4.6 ★</span>
+            </a>
+            <a href="paginas/lista/lista.html" class="ranking-item">
+                <span class="rank">5</span>
+                <img src="https://placeholder.com/50x75" alt="Percy Jackson">
+                <div class="rank-info">
+                    <h3>Percy Jackson e o Ladrão de Raios</h3>
+                    <p class="author">Rick Riordan</p>
+                    <p class="stats">Leituras: 36.5k • Favoritos: 17.8k</p>
+                </div>
+                <span class="rank-score">4.5 ★</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Novo -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre</h3>
+                <ul>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Nossa História</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suporte</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">📘</a>
+                    <a href="#" class="social-icon">📸</a>
+                    <a href="#" class="social-icon">📱</a>
+                </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Receba novidades e lançamentos</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail">
+                    <button class="btn-primary">Assinar</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BookVerse. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html> 
