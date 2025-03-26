@@ -6,7 +6,7 @@ const livrosMock = [
         autor: "J.R.R. Tolkien",
         genero: "fantasia",
         avaliacao: 4.9,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-15",
         link: "../lista/lista.html"
     },
@@ -16,7 +16,7 @@ const livrosMock = [
         autor: "Frank Herbert",
         genero: "ficcao",
         avaliacao: 4.8,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-01",
         link: "obras/ler/duna.html"
     },
@@ -26,7 +26,7 @@ const livrosMock = [
         autor: "Stephen King",
         genero: "terror",
         avaliacao: 4.7,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-20",
         link: "obras/ler/it-a-coisa.html"
     },
@@ -36,7 +36,7 @@ const livrosMock = [
         autor: "Patrick Rothfuss",
         genero: "fantasia",
         avaliacao: 4.9,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-10",
         link: "obras/ler/nome-do-vento.html"
     },
@@ -46,7 +46,7 @@ const livrosMock = [
         autor: "William Gibson",
         genero: "ficcao",
         avaliacao: 4.5,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-25",
         link: "obras/ler/neuromancer.html"
     },
@@ -56,7 +56,7 @@ const livrosMock = [
         autor: "Stephen King",
         genero: "terror",
         avaliacao: 4.6,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-05",
         link: "obras/ler/iluminado.html"
     },
@@ -66,7 +66,7 @@ const livrosMock = [
         autor: "Isaac Asimov",
         genero: "ficcao",
         avaliacao: 4.7,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-30",
         link: "obras/ler/fundacao.html"
     },
@@ -76,7 +76,7 @@ const livrosMock = [
         autor: "H.P. Lovecraft",
         genero: "terror",
         avaliacao: 4.4,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-15",
         link: "obras/ler/cor-que-caiu-do-espaco.html"
     },
@@ -86,7 +86,7 @@ const livrosMock = [
         autor: "J.R.R. Tolkien",
         genero: "fantasia",
         avaliacao: 4.8,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-10",
         link: "obras/ler/hobbit.html"
     },
@@ -96,7 +96,7 @@ const livrosMock = [
         autor: "George Orwell",
         genero: "ficcao",
         avaliacao: 4.9,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-20",
         link: "obras/ler/1984.html"
     },
@@ -106,7 +106,7 @@ const livrosMock = [
         autor: "J.R.R. Tolkien",
         genero: "fantasia",
         avaliacao: 4.7,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-01-05",
         link: "obras/ler/silmarillion.html"
     },
@@ -116,7 +116,7 @@ const livrosMock = [
         autor: "Bram Stoker",
         genero: "terror",
         avaliacao: 4.6,
-        imagem: "https://placeholder.com/200x300",
+        imagem: "../../img/No-Image-Placeholder.svg.png",
         data: "2024-02-25",
         link: "obras/ler/dracula.html"
     }
