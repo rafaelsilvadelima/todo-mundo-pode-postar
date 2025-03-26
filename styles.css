@@ -1144,4 +1144,44 @@ body {
         justify-content: center;
         margin-bottom: 10px;
     }
+}
+
+/* Estilos do Botão de Curtida */
+.like-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.btn-like {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn-like:hover {
+    border-color: #ff4444;
+    transform: scale(1.05);
+}
+
+.btn-like.curtido {
+    border-color: #ff4444;
+    background-color: #fff5f5;
+}
+
+.like-icon {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.like-count {
+    font-weight: bold;
+    color: #666;
 } 

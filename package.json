@@ -1,0 +1,11 @@
+{
+  "name": "bookverse",
+  "version": "1.0.0",
+  "description": "Sistema de leitura de livros",
+  "scripts": {
+    "start": "http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 

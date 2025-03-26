@@ -31,7 +31,7 @@
     <section class="obra-destaque">
         <div class="obra-destaque-container">
             <div class="obra-capa">
-                <img src="../../img/No-Image-Placeholder.svg.png" alt="Capa do Livro" id="obra-imagem">
+                <img src="../../img/No-Image-Placeholder.svg.png    " alt="Capa do Livro" id="obra-imagem">
             </div>
             <div class="obra-detalhes">
                 <h1 id="obra-titulo">Título da Obra</h1>
@@ -72,6 +72,14 @@
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </section>
+
+        <!-- Botão de Curtida -->
+        <div class="like-container">
+            <button id="btn-like" class="btn-like">
+                <span class="like-icon">❤️</span>
+                <span class="like-count">0</span>
+            </button>
+        </div>
 
         <!-- Navegação entre Capítulos -->
         <div class="navegacao-capitulos">
@@ -131,7 +139,15 @@
         </div>
     </footer>
 
-    <script src="../../script.js"></script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-storage-compat.js"></script>
+    
+    <!-- App Scripts -->
+    <script src="../../firebase.js"></script>
     <script src="capitulo.js"></script>
+    <script src="../../script.js"></script>
 </body>
 </html> 
